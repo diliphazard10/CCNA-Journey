@@ -36,7 +36,7 @@ This repository documents my daily learning, labs, troubleshooting exercises, co
 ## 📅 Progress
 
 - [x] Day 01 — Network Components & Basic Connectivity
-- [ ] Day 02
+- [x] Day 02 - Interfaces and Cables
 - [ ] Day 03
 - [ ] Day 04
 - [ ] Day 05
