@@ -61,16 +61,18 @@ LAN 2
 
 Interfaces can be physical or logical.
 
+```
+
 🔌 2. Physical Interface
 
 A physical interface represents an actual hardware connection.
 
 Examples:
-
+```text
 GigabitEthernet0/0
 GigabitEthernet0/1
 FastEthernet0/1
-
+```
 A physical Ethernet interface normally connects using an Ethernet cable.
 
 Example:
