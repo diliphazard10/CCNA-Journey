@@ -36,8 +36,8 @@ This repository documents my daily learning, labs, troubleshooting exercises, co
 ## 📅 Progress
 
 - [x] Day 01 — Network Components & Basic Connectivity
-- [x] Day 02 - Interfaces and Cables
-- [ ] Day 03
+- [x] Day 02 — Interfaces and Cables
+- [x] Day 03 — TCP/IP Model and OSI Model
 - [ ] Day 04
 - [ ] Day 05
 
