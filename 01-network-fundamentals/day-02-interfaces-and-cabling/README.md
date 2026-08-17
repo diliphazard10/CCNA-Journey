@@ -616,104 +616,7 @@ errors
 
 ---
 
-# 🖥️ 18. Cisco Interface Status
 
-Cisco IOS commonly reports two important interface states.
-
-Example:
-
-```text
-GigabitEthernet0/0 is up, line protocol is up
-```
-
-Conceptually:
-
-```text
-up/up
-```
-
-The first status represents the physical layer.
-
-The second represents the line protocol.
-
-The desired normal operational state is:
-
-```text
-up/up
-```
-
----
-
-# 🚫 19. Administratively Down
-
-If an interface has been manually disabled:
-
-```text
-shutdown
-```
-
-it can appear as:
-
-```text
-administratively down
-```
-
-To enable it:
-
-```text
-interface gigabitEthernet 0/0
-no shutdown
-```
-
----
-
-# 🔎 20. Cisco Interface Verification Commands
-
-## `show ip interface brief`
-
-```text
-show ip interface brief
-```
-
-Provides a quick summary of:
-
-- Interface
-- IP address
-- Status
-- Protocol
-
----
-
-## `show interfaces`
-
-```text
-show interfaces
-```
-
-Provides detailed information such as:
-
-- Interface status
-- Hardware information
-- Speed
-- Duplex
-- Errors
-- Traffic statistics
-- MAC address
-- MTU
-
----
-
-## `show interfaces status`
-
-On supported switches:
-
-```text
-show interfaces status
-```
-
-Provides a concise summary of switch ports.
-
----
 
 # 🧪 21. Day 02 Lab
 
@@ -721,77 +624,7 @@ The lab focused on identifying interfaces, Ethernet connections, cable types, an
 
 ### Basic topology
 
-```text
-           R1
-           |
-           |
-          SW1
-         /   \
-       PC1   PC2
-```
 
-### Main goals
-
-- Identify Ethernet interfaces
-- Understand copper Ethernet connections
-- Examine interface names
-- Check interface status
-- Practice basic Cisco verification commands
-
----
-
-# 🔧 22. Basic Troubleshooting Workflow
-
-When an Ethernet interface is not working:
-
-### 1. Check physical connectivity
-
-- Is the cable connected?
-- Is the correct cable/media being used?
-- Is the correct interface connected?
-
-### 2. Check interface status
-
-```text
-show ip interface brief
-```
-
-### 3. Check for administrative shutdown
-
-Look for:
-
-```text
-administratively down
-```
-
-### 4. Check detailed interface information
-
-```text
-show interfaces
-```
-
-### 5. Check speed and duplex
-
-Look for mismatches.
-
-### 6. Check interface errors
-
-Look for:
-
-- Input errors
-- CRC errors
-- Collisions
-- Drops
-
-### 7. Check Layer 3 configuration
-
-Verify:
-
-- IP address
-- Subnet mask
-- Default gateway
-
----
 
 # 📊 23. Important Terminology
 
@@ -905,9 +738,7 @@ The correct medium depends on:
 12. Cat5e, Cat6 and Cat6a are copper cabling categories.
 13. Full-duplex allows simultaneous transmission and reception.
 14. Duplex mismatches can cause performance problems.
-15. `show ip interface brief` is an important Cisco verification command.
-16. `show interfaces` provides detailed interface information.
-17. Physical-layer problems should be checked before assuming an IP/routing problem.
+
 
 ---
 
