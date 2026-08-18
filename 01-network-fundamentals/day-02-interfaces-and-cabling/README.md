@@ -875,4 +875,4 @@ administratively down
 
 ---
 
-**Next:** Day 03 — Network Topologies & Network Architecture
+**Next:** Day 03 — TCP/IP Model 
