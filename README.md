@@ -38,7 +38,7 @@ This repository documents my daily learning, labs, troubleshooting exercises, co
 - [x] Day 01 — Network Components & Basic Connectivity
 - [x] Day 02 — Interfaces and Cables
 - [x] Day 03 — TCP/IP Model and OSI Model
-- [ ] Day 04
+- [x] Day 04 — CLI (Command Line Interface)
 - [ ] Day 05
 
 More days will be added as I progress through the CCNA syllabus.
