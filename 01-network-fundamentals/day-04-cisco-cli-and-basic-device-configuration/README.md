@@ -850,4 +850,4 @@ It obscures certain plaintext passwords in the configuration, but it is not equi
 
 ---
 
-**Next:** Day 05 — 
+**Next:** Day 05 — Ethernet LAN Switching
