@@ -863,7 +863,6 @@ A → Application
 - ICMP
 - TCP
 - UDP
-- DNS
 - Packet Tracer Simulation Mode
 - Traffic analysis
 - Layer-by-layer analysis
@@ -898,11 +897,10 @@ A → Application
 - [x] PDUs
 - [x] TCP
 - [x] UDP
-- [x] DNS
 - [x] Packet Tracer Simulation Mode
 - [x] Traffic analysis
 - [x] Layer-by-layer analysis
 
 ---
 
-**Next:** Day 04 — IPv4 Addressing & Subnetting
+**Next:** Day 04 — CISCO CLI (Command Line Interface)
