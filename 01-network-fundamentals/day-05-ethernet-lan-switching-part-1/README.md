@@ -1,4 +1,4 @@
-# Day 05 — Ethernet LAN Switching & Ethernet Frames
+# Day 05 — Ethernet LAN Switching & Ethernet Frames Part 1
 
 > **CCNA 200-301 v1.1 · Network Fundamentals / Network Access**
 
@@ -1016,4 +1016,4 @@ Flood
 
 ---
 
-**Next:** Day 06 — 
+**Next:** Day 06 — Ethernet LAN Switching Part 2
