@@ -39,7 +39,9 @@ This repository documents my daily learning, labs, troubleshooting exercises, co
 - [x] Day 02 — Interfaces and Cables
 - [x] Day 03 — TCP/IP Model and OSI Model
 - [x] Day 04 — CLI (Command Line Interface)
-- [ ] Day 05
+- [x] Day 05 — Ethernet LAN Switching Part 1
+- [x] Day 06 — Ethernet LAN Switching Part 2
+- [ ] 
 
 More days will be added as I progress through the CCNA syllabus.
 
