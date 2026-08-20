@@ -899,4 +899,4 @@ If the ARP entry is already cached and valid, the host can send the IP packet wi
 
 ---
 
-**Next:** Day 07 — IPv4 Addressing & Subnetting
+**Next:** Day 07 — IPv4 Addressing Part 1
