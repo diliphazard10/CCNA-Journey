@@ -42,6 +42,7 @@ This repository documents my daily learning, labs, troubleshooting exercises, co
 - [x] Day 05 — Ethernet LAN Switching Part 1
 - [x] Day 06 — Ethernet LAN Switching Part 2
 - [x] Day 07 — IPv4 Addressing Part 1 and 2
+- [x] Day 08 — Switch Interfaces
 
 More days will be added as I progress through the CCNA syllabus.
 
