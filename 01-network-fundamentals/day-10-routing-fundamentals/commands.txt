@@ -1,0 +1,57 @@
+# Day 10 — Routing Fundamentals Commands
+
+## Routing Table
+
+show ip route
+
+## Connected Routes
+
+show ip route connected
+
+## Local Routes
+
+show ip route local
+
+## Specific Route
+
+show ip route <destination-network>
+
+## Interface Status
+
+show ip interface brief
+
+## Connectivity
+
+ping <destination-IP>
+
+## Path Testing
+
+traceroute <destination-IP>
+
+## Packet Tracer Lab
+
+Topology:
+
+PC1 ── R1 ── R2 ── PC2
+
+Checklist:
+
+- [ ] Configure router interfaces
+- [ ] Configure IP addresses
+- [ ] Verify interfaces
+- [ ] Run show ip route
+- [ ] Identify C routes
+- [ ] Identify L routes
+- [ ] Test connectivity
+- [ ] Practice Longest Prefix Match
+- [ ] Compare AD and metric concepts
+- [ ] Save Packet Tracer .pkt file
+
+Suggested screenshots:
+
+01-topology.png
+02-show-ip-interface-brief.png
+03-routing-table.png
+04-connected-and-local-routes.png
+05-ping-test.png
+06-route-selection.png
