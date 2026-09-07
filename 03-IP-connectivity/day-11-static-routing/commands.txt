@@ -1,0 +1,62 @@
+# Day 11 — Static Routing Commands
+
+## Next-Hop Static Route
+
+ip route <destination-network> <subnet-mask> <next-hop-IP>
+
+Example:
+
+ip route 192.168.2.0 255.255.255.0 10.0.0.2
+
+## Exit-Interface Static Route
+
+ip route <destination-network> <subnet-mask> <exit-interface>
+
+Example:
+
+ip route 192.168.2.0 255.255.255.0 GigabitEthernet0/1
+
+## IPv4 Default Route
+
+ip route 0.0.0.0 0.0.0.0 <next-hop-IP>
+
+Example:
+
+ip route 0.0.0.0 0.0.0.0 10.0.0.2
+
+## Verification
+
+show ip route
+show ip route static
+show ip route <destination-network>
+show ip interface brief
+
+## Connectivity
+
+ping <destination-IP>
+traceroute <destination-IP>
+
+## Packet Tracer Checklist
+
+- [ ] Configure router interfaces
+- [ ] Configure IP addresses
+- [ ] Verify interfaces are up/up
+- [ ] Configure R1 static route
+- [ ] Configure R2 return route
+- [ ] Verify S routes
+- [ ] Test PC1 → PC2
+- [ ] Test PC2 → PC1
+- [ ] Configure an IPv4 default route
+- [ ] Verify S* 0.0.0.0/0
+- [ ] Save Packet Tracer .pkt file
+
+Suggested screenshots:
+
+01-topology.png
+02-interface-status.png
+03-r1-static-route.png
+04-r2-static-route.png
+05-routing-table.png
+06-default-route.png
+07-ping-test.png
+08-traceroute.png
