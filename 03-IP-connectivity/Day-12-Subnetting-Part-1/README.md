@@ -4,7 +4,7 @@
 
 ![CCNA](https://img.shields.io/badge/CCNA-200--301-blue)
 ![Day](https://img.shields.io/badge/Day-12-green)
-![Topic](https://img.shields.io/badge/Topic-Subnetting%20Part 1-orange)
+![Topic](https://img.shields.io/badge/Topic-Subnetting%20Part1-orange)
 
 ---
 
